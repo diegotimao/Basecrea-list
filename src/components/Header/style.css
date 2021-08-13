@@ -1,0 +1,14 @@
+nav {
+   width: 100%;
+   height: 55px;
+   background: rgb(248, 248, 248);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   border-bottom: 1px solid rgb(218, 217, 217);
+}
+
+img {
+   height: 60px;
+}

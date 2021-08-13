@@ -1,0 +1,174 @@
+main {
+   display: flex;
+   width: 100%;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top:  30px;
+}
+
+.info {
+   width: 800px;
+   height: 100px;
+   border-width: 1px;
+   border-style: dashed;
+   border-color: #9b9696;
+   border-radius: 8px;
+   background: #E6E6F0;
+   display: flex;
+   padding-left: 74px;
+}
+
+.info img {
+   width: 50px;
+   height: 50px;
+   padding-top: 27px;
+   padding-left: 23px;
+}
+
+.info .aviso {
+   padding-left: 16px;
+   padding-top: 20px;
+}
+
+.info .aviso h1 {
+   font-size: 14px;
+   color: rgb(255, 38, 0);
+   margin-top: 8px;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 700;
+}
+
+.info .aviso h2 {
+   font-size: 12px;
+   margin-top: 5px;
+   font-family: 'Nunito', sans-serif;
+   font-weight: 500;
+}
+
+.form {
+   width: 900px;
+   height: 60px;
+   margin-top: 10px;
+}
+
+form {
+   display: flex;
+   align-items: center;
+   margin-top: 15px;
+   justify-content: center;
+   flex-direction: row;
+}
+
+
+.form input {
+   width: 500px;
+   height: 30px;
+   border: 1px solid #B493FC;
+   border-radius: 4px;
+   outline: 0;
+   padding-left: 10px;
+   font-weight: bold;
+}
+
+.form input::-webkit-input-placeholder{
+   color:#4d3e6e;
+   font-size: 7px;
+   font-family: 'Nunito';
+   font-weight: 400;
+   padding-left: 10px;
+}
+
+.form button {
+   margin-left: 15px;
+   width: 140px;
+   height: 32px;
+   background: #3a11cf;
+   color: white;
+   border-radius: 4px;
+   cursor: pointer;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+}
+
+.form button:hover {
+   background: #3330db;
+}
+
+
+.info-list {
+   width: 900px;
+   height: 400px;
+   margin-top: 10px;
+}
+
+
+
+
+table {
+   border-collapse: collapse;
+   width: 900px;
+   margin-top: 20px;
+}
+
+thead tr{
+   background-color: #e4e2fd;
+   border-radius: 5px;
+   color: rgb(39, 51, 163);
+   font-family: 'Nunito', sans-serif;
+   font-weight: 700;
+}
+
+th {
+   padding: 8px;
+   text-align: left;
+} 
+
+li {
+   list-style: none;
+   display: flex;
+   
+}
+
+tr {
+   display: flex;
+   justify-content: space-between;
+   border-bottom: 1px solid rgb(202, 201, 201);
+}
+
+tr, td {
+   padding: 5px;
+   text-align: left;
+   font-family: 'Poppins', sans-serif;
+   font-weight: 300;
+}
+
+td {
+   margin-top: 2px;
+}
+
+td img {
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+}
+
+.deleteIcon {
+   width: 20px;
+   height: 20px;
+   cursor: pointer;
+}
+
+
+
+tbody tr:hover{background-color:#f5f5f5};
+
+
+
+
+
+
+
+
+
+
